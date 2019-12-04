@@ -52,7 +52,7 @@ defer(function () {
     },
  
  tabs:function(){
-  var tabs='<div class="container cxl-tabs"><span class="cxl-tab cxl-tab-selected" data-latch="apps">APPS</span><span class="cxl-tab" data-latch="guide">GUIDE</span></div>'
+  var tabs='<div class="container cxl-tabs"><span class="cxl-tab cxl-tab-selected" data-latch="apps">APPS</span><span class="cxl-tab" id="cxl-buyers-guide-link" data-latch="guide">GUIDE</span></div>'
   return tabs;
  },
      
